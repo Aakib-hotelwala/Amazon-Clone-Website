@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    color: #0066c0;
+    font-family: sans-serif;
+}
+
+
+#sign-in-head {
+    font-size: 27px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+#amazon-logo-img {
+    margin: 20px 0;
+}
+
+.sign-in-section {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 370px;
+    border: 0.5px solid #ddd;
+    border-radius: 10px;
+    padding: 0 25px;
+}
+
+label {
+    font-size: 13px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 3px 0 5px;
+}
+
+input {
+    outline: none;
+    border: 1px solid #a2a2a2;
+    font-size: 13px;
+    padding: 6px 5px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+#sign-in-btn {
+    padding: 7px;
+    background-color: #fcd200;
+    border: none;
+    border-radius: 8px;
+}
+
+.sign-in-section p {
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+.sign-in-section p a {
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.sign-in-section a {
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.sign-in-section a:hover {
+    color: #bc7a00;
+}
+
+#division-line {
+    margin: 20px 0 5px;
+    border-top: 0.5px solid #d6d6d6;
+}
+
+.bussiness-sign-in p {
+    font-size: 12px;
+    margin: 15px 0 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+
+#sign-up-para {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #767676;
+    margin: 25px 0 15px;
+    font-family: sans-serif;
+    font-size: 12px;
+    width: 350px;
+}
+
+
+#sign-up-para::before,#sign-up-para::after {
+    content: '';
+    flex: 1;
+    border-top: 1px solid #ddd; 
+    margin: 0 10px; 
+}
+
+#sign-up-btn {
+    width: 350px;
+    outline: none;
+    font-size: 13px;
+    background-color: white;
+    border: 0.5px solid #ddd;
+    padding: 5px 0;
+    border-radius: 8px;
+    margin-bottom: 35px;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 170px;
+    background-color: #f9f9f9;
+    border-top: 0.5px solid #ddd;
+}
+
+.terms {
+    display: flex;
+    margin: 25px 0 20px;
+    gap: 25px;
+}
+
+
+footer a {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #bc7a00;
+}
+
+.rights {
+    color: #555;
+    font-family: sans-serif;
+    font-size: 12px;
+}
