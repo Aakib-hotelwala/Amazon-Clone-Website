@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+a {
+    font-size: 12px;
+    color: #0066c0;
+    font-family: sans-serif;
+}
+
+a:hover {
+    color: #bc7a00;
+}
+
+p {
+    font-size: 12px;
+    font-family: sans-serif;
+}
 
 body {
     display: flex;
@@ -11,30 +25,24 @@ body {
     align-items: center;
 }
 
-a {
-    color: #0066c0;
-    font-family: sans-serif;
-}
-
-
-#sign-in-head {
-    font-size: 27px;
-    font-weight: 500;
-    margin: 20px 0;
-}
-
 #amazon-logo-img {
     margin: 20px 0;
 }
 
-.sign-in-section {
+.new-registration-section {
     display: flex;
     flex-direction: column;
     width: 350px;
-    height: 370px;
+    height: 600px;
     border: 0.5px solid #ddd;
     border-radius: 10px;
     padding: 0 25px;
+}
+
+#registration-head {
+    font-size: 27px;
+    font-weight: 500;
+    margin: 20px 0;
 }
 
 label {
@@ -53,35 +61,28 @@ input {
     border-radius: 3px;
 }
 
-#sign-in-btn {
+#password-input {
+    margin-bottom: 3px;
+}
+
+#re-enter-password-label {
+    margin-top: 20px;
+}
+
+#submit-btn {
     padding: 7px;
     background-color: #fcd200;
     border: none;
     border-radius: 8px;
 }
 
-#sign-in-btn:hover {
+#submit-btn:hover {
     cursor: pointer;
     background-color: #e9c200;
 }
 
-.sign-in-section p {
-    margin: 15px 0;
-    font-size: 14px;
-}
-
-.sign-in-section p a {
-    font-size: 12px;
-    text-decoration: underline;
-}
-
-.sign-in-section a {
-    font-size: 13px;
-    text-decoration: none;
-}
-
-.sign-in-section a:hover {
-    color: #bc7a00;
+.terms {
+    margin: 25px 0 10px;
 }
 
 #division-line {
@@ -89,47 +90,29 @@ input {
     border-top: 0.5px solid #d6d6d6;
 }
 
-.bussiness-sign-in p {
+.bussiness-registration {
+    margin-top: 10px;
+}
+
+.bussiness-registration p {
     font-size: 12px;
-    margin: 15px 0 10px;
     font-family: sans-serif;
     font-weight: 600;
 }
 
-
-#sign-up-para {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #767676;
-    margin: 25px 0 15px;
-    font-family: sans-serif;
-    font-size: 12px;
-    width: 350px;
-}
-
-
-#sign-up-para::before,#sign-up-para::after {
-    content: '';
-    flex: 1;
-    border-top: 1px solid #ddd; 
-    margin: 0 10px; 
-}
-
-#sign-up-btn {
-    width: 350px;
-    outline: none;
+.bussiness-registration a {
     font-size: 13px;
-    background-color: white;
-    border: 0.5px solid #ddd;
-    padding: 5px 0;
-    border-radius: 8px;
-    margin-bottom: 35px;
+    text-decoration: none;
 }
 
-#sign-up-btn:hover {
-    background-color: #f9f9f9;
-    cursor: pointer;
+#division-line-2 {
+    margin: 20px 40px 5px;
+    border-top: 0.5px solid #d6d6d6;
+}
+
+#already-created-account {
+    font-size: 13px;
+    margin-top: 20px;
 }
 
 
@@ -137,8 +120,9 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
-    height: 170px;
+    width: 100%;
+    margin-top: 25px;
+    height: 100px;
     background-color: #f9f9f9;
     border-top: 0.5px solid #ddd;
 }
@@ -148,7 +132,6 @@ footer {
     margin: 25px 0 20px;
     gap: 25px;
 }
-
 
 footer a {
     font-size: 12px;

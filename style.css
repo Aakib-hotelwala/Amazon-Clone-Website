@@ -29,6 +29,7 @@ a {
     align-items: end;
     margin-left: 10px;
     font-size: 12px;
+    cursor: pointer;
 }
 
 #country-name {
@@ -57,6 +58,11 @@ a {
     border-radius: 4px 0 0 4px;
 }
 
+.search-category:hover {
+    background-color: #c1c1c1;
+    cursor: pointer;
+}
+
 .nav-search {
     width: 100%;
     border: none;
@@ -71,12 +77,18 @@ a {
     border-radius: 0 4px 4px 0;
 }
 
+.nav-search-icon:hover {
+    background-color: #ffb048;
+    cursor: pointer;
+}
+
 .language-selection-area {
     display: flex;
     align-items: center;
     font-weight: bold;
     gap: 2px;
     margin-left: 15px;
+    cursor: pointer;
 }
 
 .sign-in-area {
@@ -95,6 +107,7 @@ a {
     color: #ccc;
     font-size: 12px;
     margin-left: 15px;
+    cursor: pointer;
 }
 
 .return-info {
@@ -130,7 +143,13 @@ a {
     align-items: center;
     gap: 5px;
     font-weight: 500;
+    cursor: pointer;
 }
+
+.nav-belt p {
+    cursor: pointer;
+}
+
 
 .main-slider ul{
     display: flex;
